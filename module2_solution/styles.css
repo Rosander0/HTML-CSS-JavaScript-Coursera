@@ -17,9 +17,10 @@ hr {
 }
 
 h2 {
-    margin-left: 445px;
+    margin-left: 448.5px;
     border: 0.25px solid black;
     width: 25%;
+    margin-top: -2.25px;
 }
 
 h1 {
@@ -28,6 +29,7 @@ h1 {
 }
 
 div.col-lg-4{
+    margin: 10px 10px 10px 10px;
     border: 1px solid black;
     width: 600px;
 }
