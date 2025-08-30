@@ -1,0 +1,139 @@
+body{
+ font-size: 16px;
+ color: white;
+ background-color: white;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+/*** Header ***/
+#header-nav {
+ background-color: rgba(0, 0, 0, 0.300);
+ border-radius: 0;
+ border: 0;
+}
+
+.navbar-brand {
+ padding-top: 35px;
+}
+
+.navbar-brand h1 {
+ font-family: 'Lora', serif;
+ color: black;
+ font-size: 1.75em;
+ font-weight: bold;
+ text-transform: uppercase;
+ margin-top: 0;
+ margin-bottom: 0;
+ line-height: 0.75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+ text-decoration: none;
+}
+
+#nav-list {
+ margin-top: 10px;
+}
+
+#nav-list a {
+ text-align: center;
+ color: black;
+}
+
+#nav-list a:hover {
+ background: red;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+ border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+ clear: both;
+ margin-top: -20px;
+}
+
+#nav-list, #collaspable-nav {
+    background-color: white;
+}
+/*** End of Header ***/
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+}
+
+#menu-tile {
+    height: auto;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1.5px solid black;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.300);
+    text-align: center;
+}
+
+#menu-tile span {
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+#menu-tile p {
+    margin: 10px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+hr {
+    margin: 2px;
+    background-color: black;
+}
+
+/********** Large Devices **********/
+@media (min-width: 1200px) {
+    .navbar-brand {
+        padding-top: 20px;
+    }
+}
+
+/********** Medium Devices **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ .navbar-brand {
+  padding-top: 15px;
+ }
+}
+
+/********** Small Devices **********/
+@media (min-width: 768px) and (max-width: 991px)  {
+ .navbar-brand {
+  padding-top: 15px;
+ }
+
+ #menu-tile {
+    height: auto;
+ }
+}
+
+/********** Extra Small Devices **********/
+@media (max-width: 767px)  {
+    /*Header*/
+    
+    .navbar-brand {
+        padding-top: 10px;
+        height: 50px;
+    }
+    
+    .navbar-brand h1 {
+        padding-top: 5px;
+        font-size: 5vw;
+    }
+
+    #collapsable-nav a {
+        font-size: 1.4em;
+    }
+
+    #menu-tile {
+        height: auto;
+    }
+   }
