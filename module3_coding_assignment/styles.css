@@ -5,6 +5,10 @@ body{
  font-family: 'Times New Roman', Times, serif;
 }
 
+a {
+    color: blue;
+}
+
 /*** Header ***/
 #header-nav {
  background-color: rgba(0, 0, 0, 0.300);
@@ -62,9 +66,10 @@ h1 {
     text-align: center;
     color: black;
     font-family: sans-serif;
+    text-decoration: none;
 }
 
-#menu-tile {
+ #menu-tile {
     height: auto;
     width: 100%;
     margin-bottom: 15px;
@@ -74,12 +79,12 @@ h1 {
     text-align: center;
 }
 
-#menu-tile span {
+ #menu-tile span {
     font-size: 2em;
     font-family: sans-serif;
 }
 
-#menu-tile p {
+ #menu-tile p {
     margin: 10px;
     text-align: left;
     font-size: 1.1em;
@@ -135,5 +140,6 @@ hr {
 
     #menu-tile {
         height: auto;
+        background-color: rgba(0, 0, 0, 0.300);
     }
    }
